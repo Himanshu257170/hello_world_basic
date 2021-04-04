@@ -13,8 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: making
-      run: gcc hello_github.c
+    - name: make
+      run: make run
     - name: make
       run: make
     
